@@ -1,0 +1,3 @@
+/home/jing/MuduoNet/build/CMakeFiles/rebuild_cache.dir
+/home/jing/MuduoNet/build/CMakeFiles/edit_cache.dir
+/home/jing/MuduoNet/build/CMakeFiles/mymuduo.dir
