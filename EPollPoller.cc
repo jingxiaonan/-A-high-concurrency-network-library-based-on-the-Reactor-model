@@ -36,7 +36,7 @@ Timestamp EPollPoller::poll(int timeoutMs, ChannelList* activeChannels){      //
     if(numEvents > 0){
         LOG_INFO("%d events happened \n", numEvents);
         fillActiveChannels(numEvents, activeChannels); //填充活跃的channel通道
-        if(numEvents == events_.size() * 2){
+        if(numEvents == events_.size()){
             events_.resize(events_.size() * 2);  //如果返回的事件数等于数组大小，说明可能还有未处理的事件，扩大数组
         }
     }
